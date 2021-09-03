@@ -1,0 +1,64 @@
+responses:
+   utter_greet:
+       - text: |
+           Hello! How can I help you?
+       - text: |
+           Hi!
+       - text: |
+           Hi! Let me help you!
+       - text: |
+           Hey! Do you need any help?
+   utter_ask_email:
+       - text: |
+           What is your email address?
+   utter_subscribe:
+       - text: |
+           Check your inbox at {email} in order to finish subscribing to the newsletter!
+       - text: |
+           You're all set! Check your inbox at {email} to confirm your subscription.
+    utter_welcome:
+        -text: |
+            You are very welcome.
+        -text: |
+            It's my pleasure
+        -text: |
+            No probelm! I am happy to help. 
+        -text: |
+            Don't mention it! I am happy to serve you.
+     utter_goodbye:
+        - text: |
+            Goodbye! Hope to see you soon! 
+        - text: | 
+            Take it easy!
+        - text: |
+            Bye Bye!   
+        - text: |
+            Have a nice day!  
+        - text: |
+            Glad I could help! 
+            
+        
+        
+     
+    utter_unsubscribe: 
+        -text: |
+            You have been successfully unsubscribed, {email} has been removed from the newsletter. Before you go, we had love to know why you're leaving us.
+        -text: |
+            The {email} has unsubscribed. Please let us know why you unsubscribed?
+        -text: |
+           {email} has been removed from the list. Why have you cancelled your subscription, please let us know? 
+           
+        -text: |
+            We are sorry to see you go :-(  {email} is unsubscribed and will no longer receive newsletters. If you are unsubscribing because you had problems, we'd love to hear from you.
+            
+    utter_empathy:
+        -text: |
+            Okay, we understand no problem. 
+        -text: | 
+            We are sorry to hear that.
+        -text: |
+            We are sad to see you go. You can comeback, by subscribing to us. 
+        -text: |
+            No problem! We are sad to see you leave.
+        
+            

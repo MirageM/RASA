@@ -1,0 +1,12 @@
+rules:
+ - rule: activate subscribe form
+   steps:
+   - intent: subscribe
+   - action: newsletter_form
+   - action: utter_subscribe
+
+ - rule: activate unsubscribe form
+   steps:
+   - intent: unsubscribe
+   - action: newsletter_form
+   - action: utter_unsubscribe
